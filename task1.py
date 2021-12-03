@@ -18,3 +18,12 @@ joe@sandwiches.org
 ```
 (3 points) 
 '''
+
+file = open('task1.txt','w')
+
+Line1 = input("What is your name?")
+Line2 = input("What is your email?")
+
+file.write(Line1)
+file.write(f'\n')
+file.write(Line2)
