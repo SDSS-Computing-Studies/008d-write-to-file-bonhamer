@@ -20,12 +20,13 @@ import json
 
 file = open("task3.txt", "w")
 print("||||Please Enter 5 words||||")
-1 = input("Enter a word: ")
-2 = input("Enter a word: ")
-3 = input("Enter a word: ")
-4 = input("Enter a word: ")
-5 = input("Enter a word: ")
-list = [1,2,3,4,5]
+a1 = input("Enter a word: ")
+a2 = input("Enter a word: ")
+a3 = input("Enter a word: ")
+a4 = input("Enter a word: ")
+a5 = input("Enter a word: ")
+list = [a1,a2,a3,a4,a5]
 
 x = json.dumps(list)
+file.write(x)
 
